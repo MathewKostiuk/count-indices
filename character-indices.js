@@ -8,9 +8,9 @@ function countIndices(sentence) {
       continue;
     }
     var index = [];
-    for (var x = 0; x < letters.length; x++) {
-      if (letters[i] === letters[x]) {
-        index.push(x);
+    for (var j = 0; j < letters.length; j++) {
+      if (letters[i] === letters[j]) {
+        index.push(j);
       }
       indexObject[letters[i]] = index;
     }
